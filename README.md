@@ -20,23 +20,23 @@ skills: Java, StdDraw, Design,
 
 Main: Main Runner
 
-Engine: Handles the inputs for the main method
+Engine: Handles the inputs for the Main Method
 
-RandomUtils: Creates psuedo-random scenarios.
+RandomUtils: Creates Psuedo-random Scenarios.
 
-Point: X and Y coordinates
+Point: X and Y Coordinates
 
-Hallway: Creates the Path that connects two rooms.
+Hallway: Creates the Path that connects Two Rooms.
 
-Room: Creates a room around a center position with a random width and height.
+Room: Creates a Room around a Center Position with a Random Width and Height.
 
-World: Creates a random number of rooms with different dimensions, and connected hallways.
+World: Creates a Random Number of Rooms with Different Dimensions, and Connected Hallways.
 
 GameFile: Used to Save Our World. Saves the Game using a Hash Map.
 
-StringInput: Prepares our string to generate a seed.
+StringInput: Prepares our String to Generate a Seed.
 
-Avatar: Character and Movements.
+Avatar: Character and Movements Directions.
 
 Keyboard Interactor: Interacts with Keyboard Movements, as well as has HUD display, Spanish Mode Display, and other requirements for the project. 
 
@@ -44,7 +44,7 @@ String Interactor: Allows us to pass in a string and world in our configuriation
 
 ## Algorithms
 
-Random World Generator that builds rooms around our single point. Allowing us to keep track of the middle point and based on its position we are able to connect two rooms using hallways based on a certain direction.   
+Random World Generator that builds rooms around our single point. Allowing us to keep track of the middle point and based on its position we are able to connect two rooms using hallways based on a certain direction. By inputing a string of numbers, the algorithm is able to take in a string and convert it into a seed, where each seed is embedded and capable of generating the same or different world based on the input. There is an Avatar character that is able to move around the world using keyboard inputs of 'WASD' as well as capable of toggling the world using keyboard input 'V'from light mode to dark mode. Using a HashMap in our GameFile Class , we are able to save our world and load back from our previous position. And as a result, we create a Game Engine that generates explorable 2D tile-based worlds 
 
 ## Persistence
 Persistence Utils in which we use it to read and write Serialized information. 
