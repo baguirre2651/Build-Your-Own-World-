@@ -1,6 +1,6 @@
 # Build-Your-Own-World-
 
-Game engine that generates explorable 2D tile-based worlds 
+Creating a Game engine that generates explorable 2D tile-based worlds 
 
 
 skills: Java, StdDraw, Design,
