@@ -31,7 +31,7 @@ String Interactor: Allows us to pass in a string and world in our configuriation
 
 ## Algorithms
 
-Random World Generator that builds rooms around our single point. Allowing us to keep track of the middle point and based on its position we are able to connect two rooms using hallways based on a certain direction.   
+Random World Generator that builds rooms around our single point. Allowing us to keep track of the middle point and based on its position, we are able to connect two rooms using hallways based on a certain direction. By inputing a string of numbers, the algorithm is able to take in a string and convert it into a seed, where each seed is embedded and capable of generating the same or different world based on the input. There is an Avatar character that is able to move around the world using keyboard inputs of 'WASD' as well as capable of toggling the world using keyboard input 'V' from light mode to dark mode feature. Using a HashMap in our GameFile Class , we are able to save our world and load back from our previous position. And as a result, we create a Game Engine that generates explorable 2D tile-based worlds! 
 
 ## Persistence
 We use Persistence Utils in which we use it to read and write Serialized information. 
